@@ -14,4 +14,4 @@ class Solution:
         for i in l:
             h.next=ListNode(i)
             h=h.next
-        return cur
+        return cur.next
