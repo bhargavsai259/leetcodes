@@ -1,0 +1,6 @@
+lowestpathcost=-1*float("inf")
+pathcosts=[111,2,3,10, 3,33333333000,5]
+for path in pathcosts:
+    if path < lowestpathcost:
+        lowestpathcost=path
+print(lowestpathcost)
